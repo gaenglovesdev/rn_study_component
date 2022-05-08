@@ -8,27 +8,18 @@
 
 import React from 'react';
 import {
-  View,
+  View,Text
 } from 'react-native';
 
 
 import { Basic, Scroll, Modal ,Background, Animate, List, Input, PanResponder, Storage} from './components';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Navigation from './navigation';
 
 const App = () => {
   return (
     <SafeAreaProvider>
-      <View style={{flex : 1}}>
-        {/* <Basic />   */}
-        {/* <Scroll /> */}
-        {/* <Modal /> */}
-        {/* <Background /> */}
-        {/* <Animate /> */}
-        {/* <List /> */}
-        {/* <Input /> */}
-        {/* <PanResponder /> */}
-        <Storage />
-      </View>
+      <Navigation />
     </SafeAreaProvider>
   );
 };

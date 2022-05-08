@@ -29,3 +29,7 @@ RN 스터디 2주차 Component와 Api의 학습 예제
 
 - react-native-safe-area-context
 - AsyncStorage, react-native-encrypted-storage
+
+# React navigation
+
+React navigation 설정 및 사용법 학습 예제
