@@ -16,6 +16,9 @@ export default function Home({navigation}){
       <Pressable onPress={() => navigation.navigate("Detail")}>
         <Text style={styles.link}>GO Detail</Text>
       </Pressable>
+      <Pressable onPress={() => navigation.navigate("Post")}>
+        <Text style={styles.link}>GO Post</Text>
+      </Pressable>
     </View>
   )
 }

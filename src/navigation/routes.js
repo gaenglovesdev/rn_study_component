@@ -41,6 +41,11 @@ const routes = [
     name : "Detail",
     component: require("../screens/DetailScreen").default,
     options: {...transitions.fromToRight}
+  },
+  {
+    name : "Post",
+    component: require("../screens/PostScreen").default,
+    options: {...transitions.fromToRight}
   }
 ]
 
